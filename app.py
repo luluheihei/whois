@@ -1,8 +1,4 @@
-# ngrok에서 토큰을 가져옵니다. 2bU0qTkJTVSo8YOckEG6eN7ZxMf_6ogvHp9x3ZDT7i3ZC4pFb
-# 토근 설정을 합니다.
-from pyngrok import ngrok
-ngrok.set_auth_token('2lmWSjXp4Qt8Rp5OHo3xRoLxO8j_6hU3GZh6BXwjEXgBnpsn1')
-#엔그록 토큰: 2lmWSjXp4Qt8Rp5OHo3xRoLxO8j_6hU3GZh6BXwjEXgBnpsn1
+
 
 import streamlit as st
 from keras.models import load_model
