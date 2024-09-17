@@ -32,7 +32,7 @@ else:
     st.image(image, use_column_width = True)
     prediction = model.predict(data)
     index = np.argmax(prediction)
-    # class_name는 1 고양이와 같이 문자열입니다.
+    # class_name는 0 catFace  / 1 dogFace
     class_name = class_names[index]
     confidence_score = prediction[0][index]  
     confidence_score = round(confidence_score*100, 2)
