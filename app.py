@@ -2,8 +2,11 @@ import streamlit as st
 from keras.models import load_model
 from PIL import Image, ImageOps  
 import numpy as np
-
+import tensorflow as tf
+print(tf.__version__)
 # 파일 업로더를 만듭니다.
+st.title('나와 닮은 연예인 찾기')
+
 file = st.file_uploader('이미지를 업로드해주세요', type=['jpg','png'])
 
 np.set_printoptions(suppress=True)
@@ -37,4 +40,5 @@ else:
     confidence_score = prediction[0][index]  
     confidence_score = round(confidence_score*100, 2)
     st.text(f'{class_name.split(" " )[1]} {confidence_score}%')
+    
 
