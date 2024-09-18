@@ -1,5 +1,4 @@
 numpy==1.24.3
 Pillow==10.4.0
-tensorflow-cpu==2.8.0
-tensorflow_intel
-typing-extensions>=4.10.0
+tensorflow==2.10.0
+tensorflow_intel==2.13.0
