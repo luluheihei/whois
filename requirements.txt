@@ -1,4 +1,5 @@
+--upgrade pip
+tensorflow-cpu==2.10.0
+streamlit
 numpy==1.24.3
 Pillow==10.4.0
-tensorflow==2.10.0
-tensorflow_intel==2.13.0
