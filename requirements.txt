@@ -1,7 +1,4 @@
 h5py
 numpy
 Pillow
-keras==2.4.0
-tensorflow==2.4.0
-tensorflow_intel
 streamlit
