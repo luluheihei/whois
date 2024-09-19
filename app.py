@@ -1,8 +1,10 @@
 import streamlit as st
-from keras.models import load_model
+# from keras.models import load_model
+from tensorflow.keras.models import load_model #type:ignore
+
 from PIL import Image, ImageOps  
 import numpy as np
-from tensorflow.keras.layers import DepthwiseConv2D
+from tensorflow.keras.layers import DepthwiseConv2D #type:ignore
 
 
 
