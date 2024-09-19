@@ -1,6 +1,6 @@
 h5py
 numpy
 Pillow
-tensorflow==2.4.0
+tensorflow==2.8.0
 tensorflow_intel
 streamlit
